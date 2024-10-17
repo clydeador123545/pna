@@ -1,0 +1,13 @@
+.image-background{
+    display: flex;
+    position: absolute;
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 750px;
+    z-index: -100;
+}
+

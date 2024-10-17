@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    border-bottom: 1px solid white;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 110px;
+    font-size: 15px;
+    font-family: inter;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 20px;
+    color: #EA4335;
+    cursor: pointer;
+}
