@@ -25,14 +25,7 @@
 }
 
 .sections-container .fifth-section .horizontal-scroll-container .slide-container{
-    width: 200px;
-    height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.286),rgba(0, 0, 0, 0.292)),url('/images/slide1.JPG');
-    background-position: center;
-    background-size: cover;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin:0 20px;
+    
 }
 
 .sections-container .fifth-section .horizontal-scroll-container .slide-container .text{

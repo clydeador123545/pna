@@ -17,13 +17,7 @@
 /* image */
 
 .sections-container .second-section .second-section-img1{
-    width: 100%;
-    height: 500px; 
-
-    background-image: linear-gradient(rgba(66, 28, 9, 0.464),rgba(54, 29, 7, 0.607)),url('/images/mangyan2.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-top: 50px;
+    
 }
 
 /* .second-section .second-section-img1 .img1{
