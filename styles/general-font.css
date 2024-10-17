@@ -1,0 +1,9 @@
+
+.image-background .pna-context .title,
+.sections-container .second-section .second-section-title,
+.sections-container .third-section .third-section-title,
+.sections-container .fourth-section .fourth-section-title,
+.sections-container .fifth-section .fifth-section-title{
+    font-family: roboto;
+    color: #EA4335;
+}

@@ -16,6 +16,10 @@ header{
 header ul{
     list-style: none;
     display: flex;
+    flex: 8;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header ul li{
@@ -33,3 +37,13 @@ header ul li{
     color: #EA4335;
     cursor: pointer;
 }
+
+header ul .home{
+    margin-left: 0;
+}
+
+header .left-section,
+header .right-section{
+    flex: 1;
+}
+

@@ -1,0 +1,35 @@
+.image-background{
+    
+}
+
+.image-background p {
+    color: white;
+}
+
+.image-background .pna-context .title{
+    
+    margin-bottom: 0;
+    font-family: roboto;
+    font-size: 50px;
+}
+
+
+/* subtitle */
+.image-background .pna-context .sub-title{
+    margin-bottom: 250px;
+    margin-top: 0;
+}
+
+/* lower-section */
+.image-background .pna-context .lower-section{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-background .pna-context .lower-section .bar-line{
+    height: 70px;
+    width: 5px;
+    background-color: white;
+    margin-right: 10px;
+}

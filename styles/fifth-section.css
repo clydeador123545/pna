@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.sections-container .fifth-section .fifth-section-title{
+    font-size:40px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.sections-container .fifth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+/* horizontal */
+.sections-container .fifth-section .horizontal-scroll-container{
+    
+    
+    display: flex;
+    padding: 15px 15px;
+}
+
+.sections-container .fifth-section .horizontal-scroll-container .slide-container{
+    width: 200px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.286),rgba(0, 0, 0, 0.292)),url('/images/slide1.JPG');
+    background-position: center;
+    background-size: cover;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin:0 20px;
+}
+
+.sections-container .fifth-section .horizontal-scroll-container .slide-container .text{
+    font-style: italic;
+    color: white;
+    font-family: Roboto;
+    display: -webkit-box;
+    -webkit-line-clamp: 8; /* Number of lines you want to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sections-container .fifth-section .horizontal-scroll-container .slide-container .title{
+    color: white;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+

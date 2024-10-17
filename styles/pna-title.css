@@ -1,0 +1,29 @@
+.image-background .pna-context .donate-button{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EA4335;
+    border-style: none;
+    border-radius: 2px;
+    font-family: inter;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.image-background .pna-context .donate-button .heart-donate{
+    filter: invert(100%) brightness(1000%);
+    height: 30px;
+    width: 30px;
+
+}
+
+.image-background .pna-context{
+    margin-left: 10%;
+    margin-top: 75px;
+    max-width: 800px;
+    padding: 0;
+    flex: 1;
+}

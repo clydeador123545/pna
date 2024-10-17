@@ -1,13 +1,13 @@
 .image-background{
     display: flex;
-    position: absolute;
-    background-image: url('/images/background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)),url('/images/background-home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 750px;
+    height: 700px;
+    width: 100%;
     z-index: -100;
 }
 
+/* top: 0;
+    left: 0;
+    right: 0; */
