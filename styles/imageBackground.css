@@ -1,6 +1,6 @@
 .image-background{
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)),url('images/background-home.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)),url('https://github.com/clydeador123545/pna/blob/main/images/background-home.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
