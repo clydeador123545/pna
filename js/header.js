@@ -1,14 +1,14 @@
 function loadHeader() {
 
-    homeHeader = document.getElementById('homeHeader').innerHTML;
-    aboutHeader = document.getElementById('aboutHeader').innerHTML;
+    homeHeader = document.getElementById('homeHeader');
+    aboutHeader = document.getElementById('aboutHeader');
 
     
-    const home = 'index.html'
+    const currentPage = window.location.pathname.split('/').pop();
     let header = ``;
     
     // document.getElementById('header').innerHTML = header;
-    if(homeHeader === 'homeHeader'){
+    if(currentPage === 'index.html'){
         header = `
             <ul>
                 <li class="home"><a href="index.html">Home</a></li>
@@ -17,7 +17,7 @@ function loadHeader() {
             </ul>
         `;
         homeHeader.innerHTML = header;
-    }else if(aboutHeader === 'aboutHeader'){
+    }else if(currentPage === 'about.html'){
         header = `
             <ul>
                 <li class="home"><a href="../index.html">Home</a></li>
