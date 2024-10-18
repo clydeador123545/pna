@@ -1,14 +1,32 @@
 function loadHeader() {
 
-    const header = `
-        <ul>
-            <li class="home"><a href="../pna/index.html">Home</a></li>
-            <li><a href="components/about.html">About us</a></li>
-            <li>Contact us</li>
-        </ul>
-    `;
+    homeHeader = document.getElementById('homeHeader').innerHTML;
+    aboutHeader = document.getElementById('aboutHeader').innerHTML;
+
     
-    document.getElementById('header').innerHTML = header;
-   
+    const home = 'index.html'
+    const header = ``;
+    
+    // document.getElementById('header').innerHTML = header;
+    if(homeHeader === 'homeHeader'){
+        header = `
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="components/about.html">About us</a></li>
+                <li>Contact us</li>
+            </ul>
+        `;
+        homeHeader.innerHTML = header;
+    }else if(aboutHeader === 'aboutHeader'){
+        header = `
+            <ul>
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li><a href="components/about.html">About us</a></li>
+                <li>Contact us</li>
+            </ul>
+        `;
+        aboutHeader.innerHTML = header;
+    }
 }
+
 window.onload = loadHeader;
