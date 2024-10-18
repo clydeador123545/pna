@@ -1,11 +1,11 @@
 function loadHeader() {
 
-    homeHeader = document.getElementById('homeHeader');
-    aboutHeader = document.getElementById('aboutHeader');
+    const homeHeader = document.getElementById('homeHeader');
+    const aboutHeader = document.getElementById('aboutHeader');
 
     
     const currentPage = window.location.pathname.split('/').pop();
-    let header = ``;
+    let header = '';
     
     // document.getElementById('header').innerHTML = header;
     if(currentPage === 'index.html'){
