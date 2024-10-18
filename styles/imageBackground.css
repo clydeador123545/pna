@@ -8,6 +8,16 @@
     z-index: -100;
 }
 
+@media (max-width: 600px){
+    .image-background{
+        
+        height: 100vh;
+        width: 100%;
+        background-position:center;
+        background-size: cover;
+    }
+}
+
 /* top: 0;
     left: 0;
     right: 0; */

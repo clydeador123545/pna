@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Example with JavaScript</title>
+    <style>
+        .nav-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .nav-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Navigation Example with JavaScript</h1>
+
+    <!-- Buttons for Home and About Us -->
+    <button class="nav-button" id="homeBtn">Home</button>
+    <button class="nav-button" id="aboutBtn">About Us</button>
+
+    <script>
+        // JavaScript to handle button clicks and navigate to other pages
+        document.getElementById('homeBtn').addEventListener('click', function() {
+            window.location.href = 'sample.html'; // Redirects to home.html
+        });
+
+        document.getElementById('aboutBtn').addEventListener('click', function() {
+            window.location.href = 'about.html'; // Redirects to about.html
+        });
+    </script>
+
+</body>
+</html>

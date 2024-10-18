@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1000px;
+    margin-top: 50px;
 }
 
 /* image and text */
@@ -34,5 +35,39 @@
 
 /* text */
 .third-section .mission-first-sec-container .context{
-   
+   text-indent: 50px;
+}
+
+.third-section .text{
+    padding: 0 10px;
+    text-indent: 50px;
+}
+
+@media (max-width:600px){
+    .sections-container .third-section{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sections-container .third-section .third-section-title{
+        font-size: 20px;
+       
+    }
+
+    .third-section .mission-first-sec-container{
+        padding: 0 10px;
+        display: block;
+        
+    }
+    .third-section .mission-first-sec-container .img3-container{
+        margin: 0;
+    }
+
+    .third-section .mission-first-sec-container .img3-container .img3{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
 }

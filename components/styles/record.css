@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.donation-record-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.donation-record-container .title{
+    color: #EA4335;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.donation-record-container .donation-container{
+    border: 1px solid rgba(128, 128, 128, 0.317);
+    box-shadow: 0 0 50px rgba(54, 54, 54, 0.436);
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    max-height: 1000px;
+}
+
+
+/* heart css */
+.donation-record-container .donation-container .title-container .heart-logo{
+    filter:invert(22%) sepia(100%) saturate(6000%) hue-rotate(-15deg) brightness(90%);
+    width: 40px;
+    height: 40px;
+}
+
+.donation-record-container .donation-container .title-container p{
+    color: #2B66E4;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+/* name date amount etc */
+.donation-record-container .donation-container .grid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    overflow: hidden;
+    padding: 0;
+   
+}
+
+.donation-record-container .donation-container .grid-container ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content:space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.092);
+    padding: 20px 0;
+    margin: 0;
+}
+
+.donation-record-container .donation-container .grid-container ul li{
+    font-size: 20px;
+    font-family: roboto;
+    width: 20%;
+    
+}
+
+
+.donation-record-container .donation-container .grid-container ul .date{
+    font-style: italic;
+    color: gray;
+}
+
+.donation-record-container .donation-container .grid-container ul .amount{
+    color: #2B66E4;
+}
+
+
+
+

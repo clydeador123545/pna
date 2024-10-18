@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/header.css">
-<!--     <link rel="stylesheet" type="text/css"  href="styles/imageBackground.css"> -->
+    <link rel="stylesheet" type="text/css"  href="styles/imageBackground.css">
     <link rel="stylesheet" type="text/css" href="styles/body.css">
     <link rel="stylesheet" type="text/css" href="styles/under-pna-title.css">
     <link rel="stylesheet" type="text/css" href="styles/pna-title.css">
@@ -15,33 +15,17 @@
     <link rel="stylesheet" type="text/css" href="styles/sections-contianer.css">
     <link rel="stylesheet" type="text/css" href="styles/fourth-section.css">
     <link rel="stylesheet" type="text/css" href="styles/fifth-section.css">
-    
+    <link rel="stylesheet" href="styles/record.css">
     <title>PNA MISSION 2024</title>
 </head>
-<body style="height: 5000px;">
-    <header>
-        <div class="left-section">
-
-        </div>
-        <ul>
-            <li class="home">Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-        </ul>
-        <div class="right-section">
-
-        </div>
-    </header>
+<body style="height: auto;">
+    <script src="js/header.js"></script>
+    <img src="images/pna-logo.png" class="pna-logo">
+    <header id="header"></header>
 
     <div class="image-background"
         style="
-            display: flex;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)),url('images/background-home.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 700px;
-            width: 100%;
-            z-index: -100;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)),url('images/background-home.jpg'); 
         "    
     >
         <div class="pna-context">
@@ -74,7 +58,7 @@
         <div class="second-section">
             <p class="second-section-title">Who are the Mangyans?</p>
     
-            <p>
+            <p class="context">
                 Lorem ipsum odor amet, consectetuer adipiscing elit. Orci luctus porta; platea auctor nullam felis. Ullamcorper turpis dictum metus vehicula nisl vivamus, malesuada tellus eleifend. Felis euismod duis orci mollis elementum viverra at ipsum. Velit sodales ad porttitor cursus malesuada maximus eleifend egestas nulla. Elementum quam litora nibh suspendisse; fringilla enim. Gravida aenean quis commodo sit donec? Elit taciti nulla lacus ligula ut habitant ad.
             </p>
     
@@ -106,14 +90,14 @@
                 
             </div>
 
-            <p>
+            <p class="text">
                 Velit hac habitant dolor potenti auctor enim facilisis molestie enim. Praesent augue ex quis ultrices in. Habitant vel dis tempus fusce turpis integer sapien consectetur posuere. Phasellus lacus arcu feugiat pulvinar senectus ipsum. Quisque vel pellentesque morbi; fermentum feugiat class montes semper. Feugiat tortor faucibus semper lacinia, ad primis.
                 Velit hac habitant dolor potenti auctor enim facilisis molestie enim. Praesent augue ex quis ultrices in. Habitant vel dis tempus fusce turpis integer sapien consectetur posuere. Phasellus lacus arcu feugiat pulvinar senectus ipsum. Quisque vel pellentesque morbi; fermentum feugiat class montes semper. Feugiat tortor faucibus semper lacinia, ad primis.
             </p>
         </div>
 
         <div class="fourth-section">
-            <p class="fourth-section-title">WHAT IS OUR STORY AS MISSIONER?</p>
+            <p class="fourth-section-title">IMPACT</p>
         </div>
 
         <div class="fifth-section">
@@ -131,7 +115,7 @@
                 
                 >
                     <p class="title">Mission</p>
-                    <p class="text">
+                    <p class="context">
                         PNA Misyonero is a group of youth leaders and volunteers of Puso ng Ama Foundation, Inc. serving the Lord Jesus and touched by Him through their experiences in ministry.
                     </p>
                 </div>
@@ -156,6 +140,55 @@
             </div>
         </div>
     </div>
+
+
+
+    <div class="donation-record-container">
+        <p class="title">Donation's Record</p>
+        <div class="donation-container">
+            <div class="title-container"
+                style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                <img src="../images/heart.png" class="heart-logo">
+                <p>DONATION</p>
+            </div>
+
+
+            <div class="grid-container">
+                
+                <ul>
+                    <li>Name</li>
+                    <li>Date</li>
+                    <li>Amount</li>
+                    <li>Recipient</li>
+                    <li>Username</li>
+                </ul>
     
+                <ul>
+                    <li>Anothony Doyle</li>
+                    <li class="date">09/27/2024</li>
+                    <li class="amount"><span style="color: black; font-size: 15px;">&#8369;</span>2000</li>
+                    <li>Clyde Timothy Ador</li>
+                    <li>clydeador27</li>
+                </ul> 
+                <ul>
+                    <li>Clyde</li>
+                    <li class="date">09/27/2024</li>
+                    <li class="amount"><span style="color: black; font-size: 15px;">&#8369;</span>50</li>
+                    <li>Kia</li>
+                    <li>example1234</li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+
+    
+    <footer style="background-color: gray; height: 100px;">
+
+    </footer>
 </body>
 </html>

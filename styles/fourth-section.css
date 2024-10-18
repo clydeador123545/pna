@@ -6,4 +6,12 @@
 
 .sections-container .fourth-section{
     height: 750px;
+    
+}
+
+@media (max-width: 600px){
+    .sections-container .fourth-section .fourth-section-title{
+        font-size: 25px;
+        font-weight: bold;
+    }
 }

@@ -27,3 +27,27 @@
     padding: 0;
     flex: 1;
 }
+
+
+@media (max-width: 600px){
+    .image-background .pna-context .donate-button{
+        border-radius: 2px;
+        font-size: 15px;    
+        padding: 5px 10px;
+    }
+
+    .image-background .pna-context .donate-button .heart-donate{
+     
+        height: 20px;
+        width: 20px;
+    
+    }
+
+    .image-background .pna-context{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 75px;
+        max-width: auto;
+    
+    }
+}

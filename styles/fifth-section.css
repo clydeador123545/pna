@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
     
 }
 
@@ -18,7 +19,7 @@
 
 /* horizontal */
 .sections-container .fifth-section .horizontal-scroll-container{
-    
+    overflow: hidden;
     
     display: flex;
     padding: 15px 15px;
@@ -53,4 +54,23 @@
     
 }
 
+
+@media (max-width: 600px){
+    .sections-container .fifth-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    
+    .sections-container .fifth-section .fifth-section-title{
+        font-size:25px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+    
+    
+}
 

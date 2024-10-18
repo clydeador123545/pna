@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.pna-logo{
+    position: fixed;
+    width: 150px;
+    right: 2%;
+    bottom: 2%;
+    mix-blend-mode: difference;
+    z-index: 200;
+}
+
+
+
+.image-background{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color: red;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* mission vission  */
+.m-v-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 900px;
+    background-color: white;
+    margin-top: 75px;
+}
+
+.m-v-container .mission-container,
+.m-v-container .vision-container,
+.m-v-container .values-container{
+    flex: 1;
+    max-width: 400px;
+    height: 647.4;
+    background-color: white;
+    border: 2px solid red;
+    overflow: hidden;
+    border-radius: 10%;
+    box-shadow: 0 0 50px rgba(54, 54, 54, 0.46);
+}
+
+
+@media (max-width: 600px){
+    .image-background{
+       
+        height: 90vh;
+        
+    }
+
+    .m-v-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .m-v-container .mission-container,
+    .m-v-container .vision-container,
+    .m-v-container .values-container{
+        flex: unset;
+        margin: 40px 0;
+        max-width: 200px;
+        height: 250px;
+      
+    }
+
+    .title{
+      
+        font-size: 20px;
+        
+    }
+}
+
+
+
+
+
+/* image */
+.m-v-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.m-v-container .mission-container img{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+/* text */
+
+.m-v-container .text{
+    padding: 0 50px;
+    font-size: 25px;
+    
+}
+
+@media (max-width:600px){
+    .m-v-container .text{
+        padding: 0 10px;
+        font-size: 10px;
+    }
+
+    .m-v-container img{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .m-v-container .mission-container img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: unset;
+    }
+
+    
+    
+}
+
+.m-v-container .mission-container .content-container .text{
+    margin-bottom: 107px;
+}
+
+
+
+/* who we are */
+.who-are-we-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.who-are-we-container .container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+}
+.who-are-we-container .container .title{
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+@media (max-width:600px){
+    .who-are-we-container .container {
+        width: 100%;
+    }
+
+    .who-are-we-container .container .title{
+        font-size: 25px;
+      
+    }
+
+    .m-v-container .mission-container .content-container .text{
+        margin-bottom: 7%;
+    }
+}
+
+
+
+
+.who-are-we-container .container img{
+    width: 75%;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.who-are-we-container .container p{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.who-are-we-container .container a{
+    color: #005DFF;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Roboto;
+    margin-top: 10px;
+}
+
+
+@media (max-width:600px) {
+    .who-are-we-container .container a{
+        
+        font-size: 12px;
+        
+    }
+
+    .who-are-we-container .container p{
+        font-size: 15px;
+        font-family: Arial;
+        font-weight: 400;
+    }
+
+    
+}
+
+
+
