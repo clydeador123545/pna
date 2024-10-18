@@ -5,7 +5,7 @@ function loadHeader() {
 
     
     const home = 'index.html'
-    const header = ``;
+    let header = ``;
     
     // document.getElementById('header').innerHTML = header;
     if(homeHeader === 'homeHeader'){
@@ -20,7 +20,7 @@ function loadHeader() {
     }else if(aboutHeader === 'aboutHeader'){
         header = `
             <ul>
-                <li class="home"><a href="./index.html">Home</a></li>
+                <li class="home"><a href="../index.html">Home</a></li>
                 <li><a href="components/about.html">About us</a></li>
                 <li>Contact us</li>
             </ul>
